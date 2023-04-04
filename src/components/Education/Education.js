@@ -17,25 +17,15 @@ class Education extends Component {
                             <div className={classes.row}>
                                 <div className={classes.row_md_12}>
                                     <div className={classes.timeline_centered}>
-                                        <ScrollAnimation offset={0} animateIn="fadeInLeft" duration={2.4} animateOnce={true} initiallyVisible={true}>
-                                            <article className={classes.timeline_entry}>
-                                                <div className={`${classes.timeline_icon} ${classes.timeline_icon_5}`} >
-                                                    <MdWork />
-                                                </div>
-                                                <div className={classes.label}>
-                                                    <h2 >Experience  <span>July(2021)-Present</span></h2>
-                                                    <p>I am currently working as <b>Software Developer Engineer</b> at <a target="_blank" href="https://www.springworks.in/"><b>Springworks</b></a> <i>(previously Springrole and Springworks is a HR technology startup that is building tools and products to simplify recruiting and help organizations engage and retain their employees)</i> and boosting my professional skills.</p>
-                                                </div>
-                                            </article>
-                                        </ScrollAnimation>
+                                        
                                         <ScrollAnimation offset={0} animateIn="fadeInLeft" duration={2.4} animateOnce={true} initiallyVisible={true}>
                                             <article className={classes.timeline_entry}>
                                                 <div className={classes.timeline_icon} >
                                                     <MdSchool />
                                                 </div>
                                                 <div className={classes.label}>
-                                                    <h2 >Undergraduation at SLIET <span>2017-2021</span></h2>
-                                                    <p>I completed my undergraduation in CSE (Computer Science and Engineering) from <a href='http://sliet.ac.in/'>SLIET</a> with overall 82.71%.</p>
+                                                    <h2 >B.tech <span>2020-2024(Expected)</span></h2>
+                                                    <p>I am persuing my undergraduation in ECE (Electronics and Communication Engineering) from <a href='http://www.mnnit.ac.in/'>MNNIT Allahabad</a> with current CPI 7.79%.</p>
                                                 </div>
                                             </article>
                                         </ScrollAnimation>
@@ -45,24 +35,12 @@ class Education extends Component {
                                                     <FaSchool />
                                                 </div>
                                                 <div className={classes.label}>
-                                                    <h2 >Higher Education  <span>2014-2016</span></h2>
-                                                    <p>I have completed my higher education from HKIS with major subjects as Physics,Chemistry & Maths with 85% merit in CBSE board. </p>
+                                                    <h2 >Higher Education  <span>2017-2019</span></h2>
+                                                    <p>I have completed my higher education from BHANI DEVI GOYAL SVMIC JHANSI with major subjects as Physics,Chemistry & Maths with 79.20% merit in UP Board. </p>
                                                 </div>
                                             </article>
                                         </ScrollAnimation>
 
-                                        <ScrollAnimation offset={0} animateIn="fadeInLeft" duration={2.4} animateOnce={true} initiallyVisible={true}>
-                                            <article>
-                                                <div className={`${classes.timeline_icon} ${classes.timeline_icon_4}`} >
-                                                    <MdWork />
-                                                </div>
-                                                <div className={classes.label}>
-                                                    <h2 >Internship</h2>
-                                                    <p>Completed one month Internship in React Js with Internity Foundation</p>
-                                                </div>
-                                                <div className={classes.timeline_entry_inner}><div className={classes.timeline_icon_3 || classes.color_none}></div></div>
-                                            </article>
-                                        </ScrollAnimation>
                                     </div>
                                 </div>
                             </div>

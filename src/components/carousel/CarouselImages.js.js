@@ -18,16 +18,16 @@ class CarouselImages extends Component {
                     <div className={classes.image_container} >
                         <img className={classes.image} src={Hello} alt="myImage" />
                         <div className={classes.h1}>
-                            <h1 >I'm Sachin</h1>
-                            <a href="https://drive.google.com/file/d/1XwQYRl06QtuNPT8v4fHkbajk1ll9LTbi/view?usp=sharing" rel="opener noreferrer" target="_blank">VIEW CV   <FaArrowCircleDown /></a>
+                            <h1 >I'm Kaptan</h1>
+                            <a href="https://drive.google.com/drive/folders/1vw_22RBmEGHVHNGuI59NH0zNFYGxBxyT" rel="opener noreferrer" target="_blank">VIEW RESUME   <FaArrowCircleDown /></a>
                         </div>
                     </div>
                     <div className={classes.image_container}>
                         <img className={classes.image} src={Pencil} alt="myImage" />
                         <div className={classes.h2}>
-                            <h1> I love building</h1>
-                            <h1>THINGS!!</h1>
-                            <a href="https://github.com/mittalsam98" rel="opener noreferrer" target="_blank">VIEW PROJECTS   <GoProject /></a>
+                            <h1> I love coding</h1>
+                            {/* <h1>THINGS!!</h1> */}
+                            <a href="https://github.com/kaptan0428" rel="opener noreferrer" target="_blank">VIEW PROJECTS   <GoProject /></a>
                         </div>
                     </div>
                     {/* <div className={classes.image_container}>
