@@ -7,7 +7,7 @@ import { GoProject } from 'react-icons/go'
 import { FaArrowCircleDown } from 'react-icons/fa'
 import Hello from '../images/Hello.jpg'
 import Pencil from '../images/Pencil.jpg'
-import laptop1 from '../images/laptop1.jpg'
+// import laptop1 from '../images/laptop1.jpg'
 
 class CarouselImages extends Component {
     render() {
