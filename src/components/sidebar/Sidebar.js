@@ -14,7 +14,7 @@ class Sidebar extends Component {
                 <div style={{ color: 'black', fontWeight: 'bold' }} className=""> # coding </div>
                 <h1><Link smooth to="/#start" className="h1_links">Kaptan Singh</Link></h1>
 
-                <img src={logo} />
+                <img src={logo} alt="description of image"/>
                 <p style={{ color: 'black', fontWeight: 'bold' }} className="gmail"><a href="https://mail.google.com/mail/u/0/#inbox?compose=CllgCJftvBffjPmxWxvfHWRHWnhTbpQgPxBxvkcnPpFpFqbhrXMCHXSJTsCXCVLsQzgRcVLpnPL" rel="opener noreferrer" target="_blank" className="fa fa-envelope"></a> kaptan.singh5084@gmail.com </p>
 
                 <ul className="sidebar-nav">
